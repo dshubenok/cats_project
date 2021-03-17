@@ -1,9 +1,31 @@
-# cats_project
+Клонировать репозиторий и перейти в него в командной строке:
 
-клонируйте
+```python
+git clone [https://github.com/dshubenok/cats_project](https://github.com/dshubenok/cats_project)
+cd cat_project
+```
 
-активируйте виртуальное окружение
+Cоздать и активировать виртуальное окружение:
 
-установите зависимости 
+```python
+python3 -m venv venv
+source venv/bin/activate
+```
 
-выполните миграции
+Установить зависимости из файла requirements.txt:
+
+```python
+pip install -r requirements.txt
+```
+
+Выполнить миграции:
+
+```python
+python manage.py migrate
+```
+
+Запустить проект:
+
+```python
+python manage.py runserver
+```
