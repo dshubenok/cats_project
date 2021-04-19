@@ -1,4 +1,5 @@
 Клонировать репозиторий и перейти в него в командной строке:
+1
 
 ```python
 git clone [https://github.com/dshubenok/cats_project](https://github.com/dshubenok/cats_project)
